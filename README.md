@@ -10,7 +10,7 @@ This is an intentionally vulnerable Node.js application to demonstrate **server-
 ## 🚀 How to Run
 
 ```bash
-git clone https://github.com/your-username/prototype-pollution-lab-app.git
+git clone https://github.com/PhoenixCatalan/prototype-pollution-lab-app.git
 cd prototype-pollution-lab-app
 npm install
-node app.js
+npm run dev
