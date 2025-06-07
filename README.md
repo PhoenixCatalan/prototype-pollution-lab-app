@@ -1,10 +1,16 @@
-# 💥 Lab de démonstration — Prototype Pollution via deep-extend
+# 🧨 Prototype Pollution Lab App
 
-Ce lab reproduit une vulnérabilité critique dans le module `deep-extend`, permettant la pollution du prototype JavaScript via un simple JSON.
+This is an intentionally vulnerable Node.js application to demonstrate **server-side prototype pollution** using the deprecated `deep-extend` library.
 
-## 🛠️ Installation
+## 🧪 Lab Features
+
+- `/update-profile`: Allows updating user profiles (vulnerable).
+- `/check-admin`: Checks if the user is admin.
+
+## 🚀 How to Run
 
 ```bash
-git clone https://github.com/tonpseudo/deep-extend-lab.git
-cd deep-extend-lab
+git clone https://github.com/your-username/prototype-pollution-lab-app.git
+cd prototype-pollution-lab-app
 npm install
+node app.js
